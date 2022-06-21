@@ -1,6 +1,6 @@
 # tl;dr
 
-Ethereum miners and validators have unchecked power to take money from you by [frontrunning](terms/#frontrunning) and [censoring](terms/#censorship) your transactions.
+Ethereum miners and validators have unchecked power to take money from you by [frontrunning](/terms#frontrunning) and [censoring](/terms#censorship) your transactions.
 
 # get started
 
@@ -10,4 +10,4 @@ Find out about [zeromev](/about) and the [mev problem](/problem) and other relev
 
 See the problem for yourself by visiting our flagship product, the [zeromev frontrunning explorer](https://www.zeromev.org) and read the [frontrunning explorer guide](/explorer) here.
 
-Please take note of our [terms of service](/terms).
+Please take note of our [terms of service](/disclaimer).
