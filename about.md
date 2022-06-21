@@ -7,7 +7,7 @@ Hundreds of millions of dollars have already been lost by users to such exploits
 We aim to:
 
 *   __Empower Users__ by providing information to help users understand and avoid harmful MEV.
-*   __Protect Users__ by researching and advocating for genuinely preventative protocol level solutions.
+*   __Protect Users__ by researching and advocating for solutions.
 
 We have been funded with a grant from the [Ethereum Foundation](https://www.ethereum.org).
 
