@@ -12,4 +12,4 @@ In 2019, the seminal paper [Flashboys 2.0](https://arxiv.org/abs/1904.05234) coi
 
 Hundreds of millions of dollars have already been taken from Ethereum users in this way. Left unchecked, we expect the problem to [worsen intolerably](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think). 
 
-Zeromev aims to eradicate [toxic MEV](/terms#toxic-mev) involving frontrunning and censorship.
+Zeromev aims to eradicate [toxic MEV](/terms#toxic-mev) involving [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship).
