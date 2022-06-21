@@ -11,6 +11,6 @@ We aim to:
 
 We have been funded with a grant from the [Ethereum Foundation](https://www.ethereum.org).
 
-Our flagship product is the [Zeromev Frontrunning Explorer](#frontrunning-explorer) which gives users and researchers detailed information on [transaction reordering](#transaction-reordering) and [MEV](#miner-extractable-value).
+Our flagship product is the [Zeromev Frontrunning Explorer](/explorer#frontrunning-explorer) which gives users and researchers detailed information on [transaction reordering](#transaction-reordering) and [MEV](#miner-extractable-value).
 
 Zeromev was founded by the pseudo-anonymous researcher [pmcgoohan](https://twitter.com/pmcgoohanCrypto) who first alerted the community to the vulnerability we now call MEV in their 2014 post [Miners Frontrunning](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning).
