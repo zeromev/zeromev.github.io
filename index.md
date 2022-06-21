@@ -1,17 +1,16 @@
 * TOC
 {:toc}
 
-NOTE:  THIS SITE IS UNDER CONSTRUCTION AND UNDER DEVELOPMENT AND HAS NOT YET BEEN RELEASED
-
 # tl;dr
 
-Ethereum miners and validators have unchecked power to take money from you by [frontrunning](#frontrunning) and [censoring](#censorship) your transactions.
+Ethereum miners and validators have unchecked power to take money from you by [frontrunning](terms/#frontrunning) and [censoring](terms/#censorship) your transactions.
 
-Protect yourself from this today by taking [these steps](#users).
+# get started
 
-# about us
-# the problem
-# definition of terms
-# a way forward
-# zeromev frontrunning explorer
-# terms of service / disclaimer
+Protect yourself today by taking [these steps](/wayforward#users).
+
+Find out about [zeromev](/about) and the [mev problem](/problem) and other relevant [definitions](/terms).
+
+See the problem for yourself by visiting our flagship product, the [zeromev frontrunning explorer](https://www.zeromev.org) and read the [frontrunning explorer guide](/explorer) here.
+
+Please take note of our [terms of service](/terms).
