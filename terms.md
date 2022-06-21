@@ -112,6 +112,6 @@ Because zeromev captures global timing data for each Ethereum transaction, we ar
 
 There is an objective measure of how corrupt a transaction order has become, which is divergence from send time order (the time at which a user sent their transaction for processing).
 
-The closer a transaction order is to send time order, the less corrupt it is. The further it is from send time order, the more corrupt. Perfect send time order is by definition free from all Toxic MEV.
+The closer a transaction order is to send time order, the less corrupt it is. The further it is from send time order, the more corrupt. Perfect send time order is by definition free from all [toxic MEV](#toxic-mev).
 
 This [video](https://youtu.be/zf2l3veT9EI) introduces the concept.
