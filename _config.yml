@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal
+title: zeromev
+description: protecting and empowering the Ethereum community against frontrunning and censorship
+markdown: kramdown
+logo: images/zm.svg
+author: pmcgoohan
