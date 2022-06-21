@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 # definition of terms
 
 The definition of terms used by zeromev in the context of Miner Extractable Value (MEV) in Ethereum.
