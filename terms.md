@@ -102,6 +102,12 @@ Miners having full control over transaction inclusion and ordering in every Ethe
 
 The list above is far from exhaustive and will expand over time and as the use cases for Ethereum expand.
 
+## neutral mev
+
+Straightforward arbitrage and liquidations that do not involve frontrunning and censorship to create opportunities or maximize a return are considered neutral or benign by zeromev.
+
+Until these MEV types can be differentiated into toxic and neutral MEV on this basis by zeromev, they are considered as [unclassified](#unclassified-mev).
+
 ## unclassified mev
 
 Zeromev cannot currently differentiate toxic and neutral cases of some MEV types, including arbitrages and liquidations.
