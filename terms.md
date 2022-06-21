@@ -117,6 +117,8 @@ Zeromev cannot currently differentiate toxic and neutral cases of some MEV types
 
 Because zeromev captures global timing data for each Ethereum transaction, we will be in a good position to detect when miners use their power to reorder and censor transactions, which is the hallmark of toxic MEV. Until then, arbitrages and liquidations are considered unclassified by zeromev.
 
+Unclassified mev is labelled as 'other' MEV in the [frontrunning explorer](/explorer).
+
 ## transaction reordering
 
 There is an objective measure of how corrupt a transaction order has become, which is divergence from send time order (the time at which a user sent their transaction for processing).
