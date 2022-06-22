@@ -31,9 +31,9 @@ The hallmark of toxic MEV is miners reordering user transactions for their own p
 
 It is a consequence of block building being centralized and trusted in Ethereum. This permits both direct exploitation by the miner and by other parties that bribe the miner to do so.
 
-Despite sandwich attacks being the only clearly toxic MEV type currently identified by zeromev, they alone represent the majority of all MEV quantified.
+Despite [sandwich attacks](#sandwich-attacks) being the only clearly toxic MEV type currently identified by zeromev, they alone represent the majority of all MEV quantified.
 
-Once nft sniping, liquidity sandwiching, toxic arbitrage, toxic liquidations, censorship-as-a-service and other as yet undetected toxic MEV types are quantified, more benign forms of MEV not involving reordering may be revealed to be a tiny minority of the total. 
+Once [nft sniping](#nft-sniping), [liquidity sandwiching](#liquidity-sandwiching), [toxic arbitrage](#toxic-arbitrage), [toxic liquidations](#toxic-liquidations), [censorship-as-a-service](#censorship-as-a-service) and [other](#other-toxic-mev) as yet undetected toxic MEV types are quantified, more benign forms of MEV not involving reordering may be revealed to be a tiny minority of the total.
 
 ### sandwich attacks
 
@@ -109,7 +109,7 @@ Those that believe that all MEV will (or even should) be extracted inadvertently
 
 CaaS is not yet quantified by zeromev.
 
-### others
+### other toxic mev
 
 Miners having full control over transaction inclusion and ordering in every Ethereum use case creates a potentially unlimited number of possibilities for toxic MEV attacks.
 
