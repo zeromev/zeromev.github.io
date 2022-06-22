@@ -1,4 +1,5 @@
 # Contact Us
 
-[on twitter](https://twitter.com/pmcgoohanCrypto)
+[pmcgoohan on twitter](https://twitter.com/pmcgoohanCrypto)
+
 <pmcgoohan@zeromev.org>
