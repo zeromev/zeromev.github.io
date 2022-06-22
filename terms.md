@@ -136,3 +136,13 @@ There is an objective measure of how corrupt a transaction order has become, whi
 The closer a transaction order is to send time order, the less corrupt it is. The further it is from send time order, the more corrupt. Perfect send time order is by definition free from all [toxic MEV](#toxic-mev).
 
 This [video](https://youtu.be/zf2l3veT9EI) introduces the concept.
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/zf2l3veT9EI"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
