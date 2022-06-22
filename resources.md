@@ -8,7 +8,7 @@
 
 *   [Proposer/Builder Seperation & Criticism](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980/2)
 
-*   [Exploring Miner Extractable Value (MEV) with Pmcgoohan](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
+*   [Exploring Miner Extractable Value (MEV) with Pmcgoohan - Chainlink God Podcast](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
 
 # Mitigations
 
