@@ -24,7 +24,7 @@
 
 *   [LibSubmarine](https://libsubmarine.org/)
 
-*   [Targeting Zero MEV - A Content Layer Solution](https://ethresear.ch/t/targeting-zero-mev-a-content-layer-solution/9224)
+*   [Targeting Zero MEV in the Base Layer](https://www.youtube.com/watch?v=zf2l3veT9EI)
 
 # Papers
 
