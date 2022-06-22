@@ -4,7 +4,7 @@
 
 *   [Why Ethereum’s Miner Extractable Value Problem Is Way Worse Than You Think](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think/)
 
-*   [Miner's Frontrunning from 2014](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
+*   [Miner's Frontrunning (from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
 
 *   [Pmcgoohan Medium Posts](https://pmcgoohan.medium.com)
 
