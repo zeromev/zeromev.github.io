@@ -4,15 +4,17 @@
 
 *   [Why Ethereum’s Miner Extractable Value Problem Is Way Worse Than You Think](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think/)
 
-*   [Medium Posts](https://pmcgoohan.medium.com)
+*   [Pmcgoohan Medium Posts](https://pmcgoohan.medium.com)
 
 *   [Proposer/Builder Seperation & Critisism](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980/2)
+
+*   [Exploring Miner Extractable Value (MEV) with Pmcgoohan](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
 
 # Mitigations
 
 *   [Chainlink: Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
-*   [Shutter](https://shutter.ghost.io/)
+*   [Shutter Network](https://shutter.ghost.io/)
 
 *   [Arbitrum (Offchain Labs) MEV Wiki](https://www.mev.wiki/solutions/mev-minimization/arbitrum-offchain-labs)
 
@@ -30,4 +32,6 @@
 
 *   [Shutter Network Github](https://github.com/shutter-network)
 
-*   [Flashbots mev-inspect-py](https://github.com/flashbots/mev-inspect-py)
+*   [Offchain Labs - Arbitrum Github](https://github.com/OffchainLabs/arbitrum)
+
+*   [Flashbots mev-inspect-py Github](https://github.com/flashbots/mev-inspect-py)
