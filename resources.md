@@ -26,6 +26,8 @@
 
 *   [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
 
+*   [Themis: Fast, Strong Order-Fairness in Byzantine Consensus](https://eprint.iacr.org/2021/1465)
+
 *   [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://eprint.iacr.org/2021/1147)
 
 # Technology
