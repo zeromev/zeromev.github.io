@@ -1,12 +1,12 @@
 # zeromev frontrunning explorer
 
-The zeromev frontrunning explorer gives clear and detailed visibility of Miner Extractable Value (MEV) and transaction reordering on the Ethereum network. Transaction reordering (frontrunning and censorship) is the root cause of toxic MEV.
+The zeromev frontrunning explorer gives clear and detailed visibility of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) and [transaction reordering](/terms#transaction-reordering) on the Ethereum network. Transaction reordering ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) is the root cause of [toxic MEV](/terms#toxic-mev).
 
-All dates and times are in UTC (Coordinated Universal Time).
+All dates and times on the site are in UTC (Coordinated Universal Time).
 
 ## walkthrough
 
-Watch this short walkthrough of all the main features of the zeromev frontrunning explorer.
+Watch this walkthrough of all the main features of the zeromev frontrunning explorer:
 
 <iframe
     width="640"
@@ -17,6 +17,7 @@ Watch this short walkthrough of all the main features of the zeromev frontrunnin
     allowfullscreen
 >
 </iframe>
+
 
 Or follow the steps yourself below:
 
@@ -32,15 +33,16 @@ Or follow the steps yourself below:
 *    notice that the user loss is higher than the attacker's profit, which is typical
 *    the delay column shows that the victim had to wait 1 min 58 secs to be included, only to be attacked when they were
 *    hover over it to see the delay as measured by each zeromev node
-*    hover over arrival time to see first time each zeromev node saw this transaction when it was pending
+*    hover over arrival time to see the first time each zeromev node saw this transaction when it was pending
 
 ### heatmap (+2 mins)
 
-*    look at the multi-coloured heatmap bar on the left under the 'block order' button
-*    the colours are all mixed up because the time order of transactions in the block is mixed up too 
+*    look at the multi-coloured heatmap on the left under the 'block order' button
+*    it is a summary of the colours down the side of each transaction in the transaction table
+*    the colours are all mixed up because the time order of transactions in the block is mixed up too
 *    this is bad news because toxic MEV happens when miners order transactions by self-interest and not by time
 *    click on 'fair order'
-*    the heatmap is now showing that the transactions have been sorted in time order with the oldest first (light yellow), and the most recent last (dark black)
+*    the heatmap now shows that transactions have been sorted in time order with the oldest first (light/yellow), and the most recent last (dark/black)
 *    notice that the earliest transaction in the block was delayed by 17 mins 24 secs before being included
 *    the sandwich attacks have disappeared, so what happened to them?
 *    click on 'info' to see only transactions of interest
@@ -74,24 +76,28 @@ We have seen:
 *    two sandwich attacks where the victim transactions were censored for around 2 minutes before being frontrun and backrun by their attackers for a loss of $-14421
 *    that both attacks were enabled by Flashbots auctions
 *    that fair ordering transactions would have made these attacks impossible
-*    that the fair order of transactions in the network is usefully knowable
+*    that the fair order of transactions in a p2p network like the one used by Ethereum is usefully knowable
 
 Now try putting your wallet address into the search box at the top, and seeing if you have been the victim of toxic MEV.
+
+## contents
+* TOC
+{:toc}
 
 ## search bar
 
 At the top of each page is a search box.
 
 As with most blockchain explorers, you can search for a block by Ethereum:
-*   blocknumber
+*   block number
 *   transaction hash
 *   address
 
-Having searched by transaction hash, a 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
+Having searched by transaction hash or via the address page, a 'Jump To Tx' button allows you to quickly find the transaction of interest in the block.
 
 ## home page
 
-This shows recent users losses due to MEV in realtime. Figures are currently shown for both toxic MEV, which is harmful to users, and unclassified MEV which has not yet been differentiated into toxic or neutral MEV.
+This shows recent user losses due to MEV in realtime. Figures are shown for ['toxic' MEV](/terms#toxic-mev), which is harmful to users, and ['other' MEV](/terms#unclassified-mev) which is [unclassified MEV](/terms#unclassified-mev) that has not yet been differentiated into [toxic](/terms#toxic-mev) or [neutral](/terms#neutral-mev) MEV.
 
 Click on 'Refresh' to get the most recent data available. It is normal for there to be a lag of a few minutes while blocks are processed and classified by the system.
 
@@ -101,27 +107,27 @@ Click on any block number to drill down into the details.
 
 The block page is the heart of the zeromev frontrunning explorer.
 
-The view it gives of transaction timing and MEV is unparalleled by other blockchain explorers.
+The view it gives of [transaction reordering](/terms#transaction-reordering) and [Miner Extractable Value](/terms#miner-extractable-value) is unparalleled by other blockchain explorers.
 
 See [walkthrough](#walkthrough) for more.
 
 ### heatmap
 
-The time order heatmap is a key innovation of the zeromev frontrunning explorer. It lays bare the transaction reordering that underlies toxic MEV.
+The time order heatmap is a key innovation of the zeromev frontrunning explorer. It lays bare the [transaction reordering](/terms#transaction-reordering) that underlies [toxic MEV](/terms#toxic-mev).
 
-Light (yellow) indicates transactions that would have been included first in a block had it been fair ordered (ie: ordered by time), while dark (black) transactions would have been included last in a block.
+Light (yellow) indicates transactions that would have been included first in a block had it been ordered by time (fair ordered), while dark (black) transactions would have been included last in a block.
 
-Try clicking between the block order, gas order and fair order buttons to see the impact that different ordering schemes have on a block.
+Try clicking between the 'block order', 'gas order' and 'fair order' buttons to see the impact that different ordering schemes have on a block. The 'fair order' button usually seperates attacking transactions from their victim transactions, which would have rendered them ineffective.
 
 See [heatmap walkthrough](#heatmap-2-mins) for more.
 
 #### heatmap calculation
 
-The arrival time column shows the time at which a pending transaction was first seen by any one of the globally distributed zeromev nodes.
+The arrival time column shows the time at which a transaction was first seen by any one of the globally distributed zeromev nodes when it was pending.
 
 The delay is the difference between the time a pending transaction was first seen, and when it was included in the Ethereum blockchain.
 
-From this we get the time column, which is where the transaction would have come in the block order had it been ordered by time.
+From this we get the time column, which is the index of where the transaction would have come in the block order had it been ordered by time.
 
 A colour is given to each transaction based on the time column, with low numbers being light (yellow) and high numbers dark (black).
 
@@ -137,7 +143,7 @@ Shows the average and maximum amount the transactions were delayed before being 
 
 Hover over to see block arrival times for each zeromev node.
 
-See [network performance](#network-performance-1-min) for more.
+See [network performance](#network-performance-1-min) in the [walkthrough](#walkthrough) for more.
 
 ### network box
 
@@ -145,11 +151,11 @@ Shows the performance of the Ethereum peer-to-peer network and includes a count 
 
 Hover over to see individual measurements for each zeromev node, as well as average and standard deviation calculations.
 
-See [network performance](#network-performance-1-min) for more.
+See [network performance](#network-performance-1-min) in the [walkthrough](#walkthrough) for more.
 
 ### ordering buttons
 
-The ordering buttons allow you to try out different what-if orderings of transactions in a block.
+The ordering buttons allow you to try out different what-if orderings of transactions in a block, along with the original block order chosen by the miners.
 
 #### block order
 
@@ -161,13 +167,13 @@ The order of the block if sorted by gas price.
 
 #### fair order
 
-The order of the block if sorted by the first-seen arrival times of any of the globally distributed zeromev nodes.
+The order of the block if sorted by the first-seen arrival time of the globally distributed zeromev nodes.
 
-See [heatmap walkthrough](#heatmap-2-mins) for more.
+It is an approximation of objectively fair send time order (see [transaction reordering](/terms#transaction-reordering)) and [heatmap walkthrough](#heatmap-2-mins) for more.
 
 ### filter buttons
 
-Allow the user to filter the transaction table by different criteria.
+Allow the user to filter which transactions are shown in the transaction table by different criteria.
 
 #### all
 
@@ -177,27 +183,27 @@ Shows all transactions in the block.
 
 Shows only transactions which zeromev has classified in some way.
 
-As well as MEV types, this includes DEX swaps and NFTs purchases.
+As well as MEV types such as sandwiches, arbs and liquidations, this includes distributed exchange swaps and NFTs purchases.
 
 #### toxic
 
-Shows only transactions which were the victim of MEV attacks and the transactions that attacked them.
+Shows only transactions which are the victim of [toxic MEV](/terms#toxic-mev) attacks and their attacking transactions.
 
 #### other
 
-Shows all MEV related transactions.
+Currently shows all [unclassified MEV](/terms#unclassified-mev) transactions.
 
 ### transaction table
 
-The transaction table shows every transaction in the block on a single page when 'all' is selected.
+The transaction table shows every transaction in the block on a single page, or optionally a [filtered selection](#filter-buttons) of them.
 
-If you searched for a specific transaction or clicked on one from the address page, a 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
+If you searched for a specific transaction or clicked on one from the [address page](#address-page), a 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
 
 Each column in the table is described below.
 
 #### time
 
-The index position of a transaction when ordered by time.
+The index position of a transaction when ordered by first seen arrival time.
 
 See [heatmap calculation](#heatmap-calculation) for more.
 
@@ -205,7 +211,7 @@ See [heatmap calculation](#heatmap-calculation) for more.
 
 The delay between when a transaction was first seen by any of the zeromev nodes and when it was executed and published in the block.
 
-Hover over a delay value to see the delay measured by each individual zeromev node.
+Hover over to see the delay measured by each individual zeromev node.
 
 'miner' means that the transaction was not seen in the mempool of any of the zeromev nodes, and was likely inserted by the miner when they created the block.
 
@@ -213,19 +219,21 @@ Hover over a delay value to see the delay measured by each individual zeromev no
 
 This gives details of MEV and other information.
 
-*   Toxic MEV is in red (hover over for details).
-*   Unclassified MEV is in grey (hover over for details).
+*   [Toxic MEV](/terms#toxic-mev) is in red (hover over for details).
+*   [Unclassified MEV](/terms#unclassified-mev) is in grey (hover over for details).
 *   Non MEV such as straightforward swaps and NFT trades are shown in light blue.
 
 #### impact
 
-Summarizes the loss to the user of an MEV instance.
+Summarizes the loss to the user of an MEV instance, or in the case of liquidations, the negative of the transaction profit for consistency. Where both user loss and miner profit can be calculated, such as for [sandwich attacks](/terms#sandwich-attacks), user loss is shown.
 
 #### action
 
-Gives information about the execution of the transaction. It may include swaps, liquidations and NFT trades.
+Gives information about the execution of the transaction, not just those related to an instance of MEV. Examples include swaps, liquidations and NFT trades.
 
 #### flashbots bundle
+
+This column has a robot icon in the header.
 
 When populated, it shows that the transaction was inserted by the miner having been bribed for inclusion in a [Flashbots Bundle](https://docs.flashbots.net/flashbots-auction/searchers/advanced/understanding-bundles).
 
@@ -235,11 +243,11 @@ Examples:
 2.1 is the first transaction in bundle 2.
 4.6 is the sixth transaction in bundle 4.
 
-Please note that while Flashbots Bundles are start from 0 in their API, Zeromev starts Flashbots Bundles from 1 as this is the same as the official [Flashbots Bundle Explorer](https://flashbots-explorer.marto.lol/).
+Please note that while Flashbots Bundles start from 0 in their API, Zeromev starts Flashbots Bundles from 1 as this is also the behaviour of the official [Flashbots Bundle Explorer](https://flashbots-explorer.marto.lol/).
 
 #### transaction hash
 
-A an abbreviated hash of the Ethereum transaction. Hover over for the full hash. Click to link to it on Etherscan.
+An abbreviated hash of the Ethereum transaction. Hover over for the full hash. Click to link to it on Etherscan.
 
 #### arrival time
 
@@ -249,11 +257,11 @@ Hover over a delay value to see the arrival times measured by each individual ze
 
 #### from
 
-The originating address of the transaction.
+The abbreviated originating address of the Ethereum transaction. Hover over for the full address. Click to link to it on Etherscan.
 
 #### to
 
-The destination address of the transaction.
+The abbreviated destination address of the Ethereum transaction. Hover over for the full address. Click to link to it on Etherscan.
 
 #### value
 
@@ -267,8 +275,8 @@ Denominated in Gwei.
 
 ## address page
 
-You can navigate to the address page by searching for a valid Ethereum address in the Search Box.
+You can navigate to the address page by searching for a valid Ethereum address in the [search bar](#search-bar)
 
-You can then page through all transactions made from this address. 
+You can then page through all transactions made from this address. This is useful for seeing if you have been the victim of [toxic MEV](/terms#toxic-mev)
 
-Clicking on a transaction hash here drills down into the block containing that transaction. A 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
+Clicking on a transaction hash from here drills down into the block containing that transaction. A 'Jump To Tx' button will then allow you to quickly find the transaction in question in the block.
