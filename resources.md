@@ -6,7 +6,9 @@
 
 *   [Miner's Frontrunning (from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
 
-*   [Pmcgoohan Medium Posts](https://pmcgoohan.medium.com)
+*   [How To Fix MEV: In One Sentence](https://pmcgoohan.medium.com/how-to-fix-mev-in-one-sentence-6e4a47ef4085)
+
+*   [MEV... do this](https://pmcgoohan.medium.com/mev-do-this-beb2754bca63)
 
 *   [Proposer/Builder Seperation & Criticism](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980/2)
 
