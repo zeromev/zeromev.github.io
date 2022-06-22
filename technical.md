@@ -4,10 +4,10 @@ Zeromev's systems are written in C# .NET Core.
 
 | component          | description                                                                      |
 |--------------------|----------------------------------------------------------------------------------|
-| extractor service  | records the arrival time of pending transactions                                 |
-| classifier service | detects, classifies and quantifies instances of MEV                              |
-| api server         | provides compact MEV data to the web client                                      |
-| web client         | single page application drawing data from the api server and third parties       |
+| [extractor service](#extractor-service)  | records the arrival time of pending transactions                                 |
+| [classifier service](#classifier-service) | detects, classifies and quantifies instances of MEV                              |
+| [api server](#api-server)         | provides compact MEV data to the web client                                      |
+| [web client](#web-client)         | single page application drawing data from the api server and third parties       |
 
 # extractor service
 
