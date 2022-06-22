@@ -99,7 +99,7 @@ Zeromev cannot currently diffentiate toxic and neutral liquidations. Until then,
 
 ### censorship-as-a-service
 
-Censorship-as-a-service (Caas) involves bribing miners not just to include your transaction, but to exclude the transactions of other users.
+Censorship-as-a-service (Caas) involves bribing miners not to include your transaction, but to exclude the transactions of other users.
 
 CaaS is a vital and active area of research for zeromev because it is facilitated by the upcoming adoption of full-block mev auctions on Ethereum and the centralization of block building that they incentivize.
 
