@@ -1,6 +1,6 @@
 # zeromev frontrunning explorer
 
-The zeromev frontrunning explorer gives clear and detailed visibility of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) and [transaction reordering](/terms#transaction-reordering) on the Ethereum network. Transaction reordering ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) is the root cause of toxic MEV.
+The zeromev frontrunning explorer gives clear and detailed visibility of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) and [transaction reordering](/terms#transaction-reordering) on the Ethereum network. Transaction reordering ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) is the root cause of [toxic MEV](/terms#toxic-mev).
 
 All dates and times on the site are in UTC (Coordinated Universal Time).
 
