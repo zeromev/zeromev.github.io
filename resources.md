@@ -1,12 +1,16 @@
-# Discussion
+A selection of resources relevant to [Miner Extractable Value](/terms#miner-extractable-value) (MEV).
+
+# discussion
 
 *   [Miners, Front-Running-as-a-Service Is Theft](https://www.coindesk.com/markets/2021/04/07/miners-front-running-as-a-service-is-theft/)
 
 *   [Why Ethereum’s Miner Extractable Value Problem Is Way Worse Than You Think](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think/)
 
-*   [Miner's Frontrunning (from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
+*   [Five theses about transaction ordering, MEV, and front-running](https://medium.com/offchainlabs/five-theses-about-transaction-ordering-mev-and-front-running-5ebf52bc0cbe)
 
-*   [How To Fix MEV: In One Sentence](https://pmcgoohan.medium.com/how-to-fix-mev-in-one-sentence-6e4a47ef4085)
+*   [MEV auctions considered harmful](https://medium.com/offchainlabs/mev-auctions-considered-harmful-fa72f61a40ea)
+
+*   [Miner's Frontrunning (from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
 
 *   [MEV... do this](https://pmcgoohan.medium.com/mev-do-this-beb2754bca63)
 
@@ -14,7 +18,7 @@
 
 *   [Exploring Miner Extractable Value (MEV) with Pmcgoohan - Chainlink God Podcast](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
 
-# Mitigations
+# mitigation
 
 *   [Chainlink: Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
@@ -26,7 +30,9 @@
 
 *   [Targeting Zero MEV in the Base Layer](https://www.youtube.com/watch?v=zf2l3veT9EI)
 
-# Papers
+*   [How To Fix MEV: In One Sentence](https://pmcgoohan.medium.com/how-to-fix-mev-in-one-sentence-6e4a47ef4085)
+
+# papers
 
 *   [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
 
@@ -34,7 +40,7 @@
 
 *   [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://eprint.iacr.org/2021/1147)
 
-# Technology
+# technology
 
 *   [Shutter Network Github](https://github.com/shutter-network)
 
