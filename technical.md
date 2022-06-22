@@ -13,11 +13,11 @@ Zeromev's systems are written in C# .NET Core.
 
 The extractor service is designed to run locally on Ethereum nodes which it connects to via both RPC and Websockets.
 
-Our systems currently run the extractor service alongside the official Ethereum protocol implementation [geth](https://geth.ethereum.org/) in three geographically distributed locations (Europe, Asia and the US). An additional server connects to Infura and is hosted close to their servers.
-
 As soon as a pending transaction is seen for the first time through the websocket subscription, it is timestamped and recorded in a centralized database along with the location id of the server.
 
 The extractor service also captures data from the Flashbots [blocks api](https://blocks.flashbots.net/) which is stored in compressed form in the same database.
+
+Our systems currently run the extractor service alongside the official Ethereum protocol implementation [geth](https://geth.ethereum.org/) in three geographically distributed locations (Europe, Asia and the US). An additional server connects to Infura and is hosted close to their servers.
 
 Arrival timestamps have been captured since block 13358564 (Oct-05-2021).
 
@@ -25,11 +25,13 @@ Arrival timestamps have been captured since block 13358564 (Oct-05-2021).
 
 The classifier service is designed to extract MEV data and write it in compressed form ready for the web client as well as in summary form for batch analysis.
 
-The classifier keeps track of tick level price data parsed from Uniswap v2/v3 swap details exported by mev-inspect-py.
+The classifier keeps track of tick level price data for each Ethereum token parsed from Uniswap v2/v3 swap details exported by mev-inspect-py.
 
-Arbitrages, liquidations are sourced directly from Flashbots [mev-inspect-py](https://github.com/flashbots/mev-inspect-py) running against [erigon](https://github.com/ledgerwatch/erigon) full archive nodes, but with dollar exchange rates for these instances recalculated using the exchange rate data above at block granularity.
+Arbitrages and liquidations are sourced directly from Flashbots [mev-inspect-py](https://github.com/flashbots/mev-inspect-py) running against [erigon](https://github.com/ledgerwatch/erigon) full archive nodes, but with dollar exchange rates for these instances recalculated using the exchange rate data above at block granularity. As such they may differ in results from those found in the mev-inspect-py mev summary table and mev-explore.
 
-Sandwiches are recreated internally using methods based on the mev-inspect-py code, but with sandwich profits recalculated according to zeromev's research document [Estimating Sandwich Attack Profits And User Losses](https://docs.google.com/document/d/1CiVE-ASAjoKdc1V8ed6ABPJUAPsa7ADEB5VmnY1TkvI/edit?usp=sharing) as mev-inspect-py has outstanding issues in this area. Sandwich dollar exchange rates are calculated at tick granularity using the method above.
+Sandwiches are recreated internally using methods based on the mev-inspect-py code, but with sandwich profits recalculated according to zeromev's research [Estimating Sandwich Attack Profits And User Losses](https://docs.google.com/document/d/1CiVE-ASAjoKdc1V8ed6ABPJUAPsa7ADEB5VmnY1TkvI/edit?usp=sharing) as mev-inspect-py has outstanding issues in this area. Sandwich dollar exchange rates are calculated at tick granularity using the method above.
+
+Because of zeromev's reliance on mev-inspect-py for detection, much of the information from the mev-explore [data & metrics](https://explore.flashbots.net/data-metrics) page applies here.
 
 The classifier also sources token details from [ethplorer](https://ethplorer.io/).
 
