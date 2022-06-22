@@ -55,7 +55,7 @@ A pool imbalance attack is a sub-class of sandwich attack in which the relative 
 
 #### position taking
 
-Sandwich attacks are often used by the attacker to take a position on one currency are another at an inflated price. This was first predicted by the zeromev founder [pmcgoohan](https://twitter.com/pmcgoohanCrypto) in [this post](https://ethresear.ch/t/mev-auctions-will-kill-ethereum/9060).
+Sandwich attacks are often used by the attacker to take a position on a currency at a preferential price. This was first predicted by the zeromev founder [pmcgoohan](https://twitter.com/pmcgoohanCrypto) in [this post](https://ethresear.ch/t/mev-auctions-will-kill-ethereum/9060).
 
 If the attacker’s frontrun output does not equal their backrun input, then they will be left with a position.
 
