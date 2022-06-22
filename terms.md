@@ -53,9 +53,15 @@ A pool imbalance attack is a sub-class of sandwich attack in which the relative 
 
 [This example](https://twitter.com/pmcgoohanCrypto/status/1512070425748017158?s=20&t=K2251p60Y2pC2gZQv1fKug) shows such an attack returning the user 124659361459800% less than expected in what was likely a trap set and bait by the attacker.
 
-#### overweight backrunning
+#### position taking
 
-TODO
+Sandwich attacks are often used by the attacker to take a position on one currency are another at an inflated price. This was first predicted by the zeromev founder [pmcgoohan](https://twitter.com/pmcgoohanCrypto) in [this post](https://ethresear.ch/t/mev-auctions-will-kill-ethereum/9060).
+
+If the attacker’s frontrun output does not equal their backrun input, then they will be left with a position.
+
+If the frontrun is greater, then the attacker will end up with a position on the frontrun output token. This is very harmful because it worsens the price for the victim more than a balanced sandwich would. However, the impact of this is already accounted for by the user loss calculation. In these instances, user loss will often be much more sizeable than the attacker profit.
+
+If the backrun is greater, then the attacker will end up with a position on the backrun output token. This excess is reported in brackets in the impact column of the backrun transaction, and in the hover over summary of the attack.
 
 ### liquidity sandwiching
 
