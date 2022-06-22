@@ -2,7 +2,7 @@
 
 Zeromev is an organization that aims to protect Ethereum users from [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship).
 
-Hundreds of millions of dollars have already been lost by users to such exploits, which is often called Miner Extractable Value (MEV).
+Hundreds of millions of dollars have already been lost by users to such exploits, which is often called [Miner Extractable Value](/terms#miner-extractable-value) (MEV).
 
 We aim to:
 
