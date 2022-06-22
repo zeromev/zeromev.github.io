@@ -97,7 +97,7 @@ Having searched by transaction hash or via the address page, a 'Jump To Tx' butt
 
 ## home page
 
-This shows recent users losses due to MEV in realtime. Figures are shown for ['toxic' MEV](/terms#toxic-mev), which is harmful to users, and ['other' MEV](/terms#unclassified-mev) which is [unclassified MEV](/terms#unclassified-mev) that has not yet been differentiated into [toxic](/terms#toxic-mev) or [neutral](/terms#neutral-mev) MEV.
+This shows recent user losses due to MEV in realtime. Figures are shown for ['toxic' MEV](/terms#toxic-mev), which is harmful to users, and ['other' MEV](/terms#unclassified-mev) which is [unclassified MEV](/terms#unclassified-mev) that has not yet been differentiated into [toxic](/terms#toxic-mev) or [neutral](/terms#neutral-mev) MEV.
 
 Click on 'Refresh' to get the most recent data available. It is normal for there to be a lag of a few minutes while blocks are processed and classified by the system.
 
@@ -107,7 +107,7 @@ Click on any block number to drill down into the details.
 
 The block page is the heart of the zeromev frontrunning explorer.
 
-The view it gives of transaction timing and MEV is unparalleled by other blockchain explorers.
+The view it gives of [transaction reordering](/terms#transaction-reordering) and [Miner Extractable Value](/terms#miner-extractable-value) is unparalleled by other blockchain explorers.
 
 See [walkthrough](#walkthrough) for more.
 
@@ -117,7 +117,7 @@ The time order heatmap is a key innovation of the zeromev frontrunning explorer.
 
 Light (yellow) indicates transactions that would have been included first in a block had it been ordered by time (fair ordered), while dark (black) transactions would have been included last in a block.
 
-Try clicking between the block order, gas order and fair order buttons to see the impact that different ordering schemes have on a block. The fair order button usually seperates attacking transactions from their victim transactions, which would have rendered them ineffective.
+Try clicking between the 'block order', 'gas order' and 'fair order' buttons to see the impact that different ordering schemes have on a block. The 'fair order' button usually seperates attacking transactions from their victim transactions, which would have rendered them ineffective.
 
 See [heatmap walkthrough](#heatmap-2-mins) for more.
 
@@ -127,7 +127,7 @@ The arrival time column shows the time at which a transaction was first seen by 
 
 The delay is the difference between the time a pending transaction was first seen, and when it was included in the Ethereum blockchain.
 
-From this we get the time column, which is where the transaction would have come in the block order had it been ordered by time.
+From this we get the time column, which is the index of where the transaction would have come in the block order had it been ordered by time.
 
 A colour is given to each transaction based on the time column, with low numbers being light (yellow) and high numbers dark (black).
 
@@ -183,21 +183,21 @@ Shows all transactions in the block.
 
 Shows only transactions which zeromev has classified in some way.
 
-As well as MEV types such as sandwiches, arbs and liquidations, this includes DEX swaps and NFTs purchases.
+As well as MEV types such as sandwiches, arbs and liquidations, this includes distributed exchange swaps and NFTs purchases.
 
 #### toxic
 
-Shows only transactions which were the victim of [toxic MEV](/terms#toxic-mev) attacks and the transactions that attacked them.
+Shows only transactions which are the victim of [toxic MEV](/terms#toxic-mev) attacks and their attacking transactions.
 
 #### other
 
-Currently shows all transactions related to [unclassified MEV](/terms#unclassified-mev).
+Currently shows all [unclassified MEV](/terms#unclassified-mev) transactions.
 
 ### transaction table
 
-The transaction table shows every transaction in the block on a single page when 'all' is selected.
+The transaction table shows every transaction in the block on a single page, or optionally a [filtered selection](#filter-buttons) of them.
 
-If you searched for a specific transaction or clicked on one from the address page, a 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
+If you searched for a specific transaction or clicked on one from the [address page](#address-page), a 'Jump To Tx' button allows you to quickly find the transaction in question in the block.
 
 Each column in the table is described below.
 
@@ -225,11 +225,11 @@ This gives details of MEV and other information.
 
 #### impact
 
-Summarizes the loss to the user of an MEV instance. Where both user loss and miner profit can be calculated, user loss is shown.
+Summarizes the loss to the user of an MEV instance, or in the case of liquidations, the negative of the transaction profit for consistency. Where both user loss and miner profit can be calculated, such as for [sandwich attacks](/terms#sandwich-attacks), user loss is shown.
 
 #### action
 
-Gives information about the execution of the transaction. It may include swaps, liquidations and NFT trades.
+Gives information about the execution of the transaction, not just those related to an instance of MEV. Examples include swaps, liquidations and NFT trades.
 
 #### flashbots bundle
 
@@ -247,7 +247,7 @@ Please note that while Flashbots Bundles start from 0 in their API, Zeromev star
 
 #### transaction hash
 
-A an abbreviated hash of the Ethereum transaction. Hover over for the full hash. Click to link to it on Etherscan.
+An abbreviated hash of the Ethereum transaction. Hover over for the full hash. Click to link to it on Etherscan.
 
 #### arrival time
 
@@ -277,6 +277,6 @@ Denominated in Gwei.
 
 You can navigate to the address page by searching for a valid Ethereum address in the [search bar](#search-bar)
 
-You can then page through all transactions made from this address. 
+You can then page through all transactions made from this address. This is useful for seeing if you have been the victim of [toxic MEV](/terms#toxic-mev)
 
 Clicking on a transaction hash from here drills down into the block containing that transaction. A 'Jump To Tx' button will then allow you to quickly find the transaction in question in the block.
