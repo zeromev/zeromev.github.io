@@ -6,7 +6,7 @@ Zeromev always encourages people to do their own research, and will under not un
 
 ## users
 
-Our recommendations are designed to:
+These ideas are designed to:
 
 *   protect you from being exploited for [toxic MEV](/terms#toxic-mev) to the maximum extent possible.
 *   cost you less in transaction fees.
@@ -14,7 +14,7 @@ Our recommendations are designed to:
 *   reduce congestion on Ethereum mainnet.
 *   reduce the overall gas costs on Ethereum mainnet and Layer 2.
 
-### summary of recommendations
+### summary
 
 *   [only use ethereum mainnet for token deposits and transfers.](#only-use-ethereum-mainnet-for-token-deposits-and-transfers)
 *   [use a first come first serve (FCFS) layer 2 for everything else.](#use-a-first-come-first-serve-FCFS-layer-2-for-everything-else)
@@ -53,7 +53,7 @@ For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and 
 
 ### looking to the future
 
-The recommendations above empower you to take effective action **today** to protect yourself against [toxic MEV](/terms#toxic-mev).
+We hope the ideas above empower you to take effective action **today** to protect yourself against [toxic MEV](/terms#toxic-mev).
 
 The following organizations are at the fore of research to mitigate [toxic MEV](/terms#toxic-mev) in a fully distributed setting:
 
