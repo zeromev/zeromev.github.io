@@ -6,5 +6,5 @@ Zeromev always encourages people to do their own research, and will under not un
 
 ## users
 
-A possible way forward for users looking to avoid or reduce toxic MEV.
+A possible way forward for users looking to avoid or reduce toxic MEV. TODO
 
