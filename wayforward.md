@@ -53,7 +53,7 @@ For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and 
 
 ### looking to the future
 
-The recommendations above empower you to take effective action **today** to protect yourself from [toxic MEV](/terms#toxic-mev).
+The recommendations above empower you to take effective action **today** to protect yourself against [toxic MEV](/terms#toxic-mev).
 
 The following organizations are at the fore of research to mitigate [toxic MEV](/terms#toxic-mev) in a fully distributed setting:
 
