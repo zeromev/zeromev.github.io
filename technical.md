@@ -1,6 +1,6 @@
 # data and technical
 
-Zeromev's systems are written in C# .NET Core.
+The zeromev system consists of four main components authored in C# .NET Core.
 
 ## zeromev overview
 
