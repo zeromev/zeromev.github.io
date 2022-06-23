@@ -6,7 +6,7 @@ Zeromev always encourages people to do their own research, and will under not un
 
 ## users
 
-Our recommendations for users are designed to:
+Our recommendations are designed to:
 
 *   protect you from being exploited for [toxic MEV](/terms#toxic-mev) to the maximum extent possible.
 *   cost you less in transaction fees.
