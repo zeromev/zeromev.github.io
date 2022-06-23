@@ -2,9 +2,9 @@
 
 Ethereum miners and validators have unchecked power to take money from you by [frontrunning](/terms#frontrunning) and [censoring](/terms#censorship) your transactions.
 
-The zeromev frontrunning explorer gives clear and detailed visibility of such instances of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) on the Ethereum network, which commonly involve [transaction reordering](/terms#transaction-reordering). 
+The zeromev frontrunning explorer gives clear and detailed visibility of such instances of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) on the Ethereum network.
 
-Transaction reordering ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) causes [toxic MEV](/terms#toxic-mev).
+[Transaction reordering](/terms#transaction-reordering) ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) is the root cause of [toxic MEV](/terms#toxic-mev).
 
 All dates and times on the site are in UTC (Coordinated Universal Time).
 
