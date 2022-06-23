@@ -1,6 +1,8 @@
+# resources
+
 A selection of resources relevant to [Miner Extractable Value](/terms#miner-extractable-value) (MEV).
 
-# discussion
+## discussion
 
 *   [Miners, Front-Running-as-a-Service Is Theft](https://www.coindesk.com/markets/2021/04/07/miners-front-running-as-a-service-is-theft/)
 
@@ -18,7 +20,7 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 *   [Exploring Miner Extractable Value (MEV) with Pmcgoohan - Chainlink God Podcast](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
 
-# mitigation
+## mitigation
 
 *   [Chainlink: Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
@@ -32,7 +34,7 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 *   [How To Fix MEV: In One Sentence](https://pmcgoohan.medium.com/how-to-fix-mev-in-one-sentence-6e4a47ef4085)
 
-# papers
+## papers
 
 *   [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
 
@@ -40,7 +42,7 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 *   [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://eprint.iacr.org/2021/1147)
 
-# technology
+## technology
 
 *   [Shutter Network Github](https://github.com/shutter-network)
 
