@@ -47,7 +47,9 @@ Choose a First Come First Serve (FCFS) L2 with a high [Total Value Locked](https
 
 Ethereum miners are similarly trusted for transaction ordering, but are unaccountable and anonymous. Worse, the majority now run software designed to maximize the exploitation of MEV and are not worthy of your trust.
 
-Avoid L2s that offer bribery ordering or have dubious or exploitative MEV policies. For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and has made it clear that frontrunning will [not be tolerated](https://docs.ata.network/mev/solutions/mev-minimization-prevention/#arbitrum-by-offchain-labs), whereas [Optimism](https://www.optimism.io/) has looked to extract MEV from users [by design](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788).
+Avoid L2s that offer bribery ordering or have dubious or exploitative MEV policies. 
+
+For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and has made it clear that frontrunning will [not be tolerated](https://docs.ata.network/mev/solutions/mev-minimization-prevention/#arbitrum-by-offchain-labs), whereas [Optimism](https://www.optimism.io/) has looked to extract MEV from users [by design](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788).
 
 ### looking to the future
 
