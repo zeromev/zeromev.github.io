@@ -11,7 +11,7 @@ Zeromev's systems are written in C# .NET Core.
 
 # extractor service
 
-The extractor service is designed to run locally on Ethereum nodes which it connects to via both RPC and Websockets.
+The extractor service is designed to run locally on full Ethereum nodes which it connects to via both RPC and Websockets.
 
 As soon as a pending transaction is seen for the first time through the websocket subscription, it is timestamped and recorded in a centralized database along with the location id of the server.
 
@@ -19,7 +19,7 @@ The extractor service also captures data from the Flashbots [blocks api](https:/
 
 Our systems currently run the extractor service alongside the official Ethereum protocol implementation [geth](https://geth.ethereum.org/) in three geographically distributed locations (Europe, Asia and the US). An additional server connects to Infura and is hosted close to their servers.
 
-Arrival timestamps have been captured since block 13358564 (Oct-05-2021).
+Arrival timestamps have been captured since block 13358564 (Oct-05-2021). Transactions are tracked for a maximum of 14 days from first seen to block inclusion time.
 
 # classifier service
 
