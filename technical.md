@@ -25,13 +25,13 @@ Arrival timestamps have been captured since block 13358564 (Oct-05-2021). Transa
 
 # classifier service
 
-The classifier service is designed to extract MEV data and write it in compressed form ready for the web client as well as in summary form for batch analysis.
+The classifier service is designed to extract MEV data and write it in compressed form ready for the web client as well as in summary form for analysis.
 
 The classifier keeps track of tick level price data for each Ethereum token parsed from Uniswap v2/v3 swap details exported by mev-inspect-py.
 
 Arbitrages and liquidations are sourced directly from Flashbots [mev-inspect-py](https://github.com/flashbots/mev-inspect-py) running against [erigon](https://github.com/ledgerwatch/erigon) full archive nodes, but with dollar exchange rates for these instances recalculated using the exchange rate data above at block granularity. As such they may differ in results from those found in the mev-inspect-py mev summary table and mev-explore.
 
-Sandwiches are recreated internally using methods based on the mev-inspect-py code, but with sandwich profits recalculated according to zeromev's research [Estimating Sandwich Attack Profits And User Losses](https://docs.google.com/document/d/1CiVE-ASAjoKdc1V8ed6ABPJUAPsa7ADEB5VmnY1TkvI/edit?usp=sharing) as mev-inspect-py has outstanding issues in this area. Sandwich dollar exchange rates are calculated at tick granularity using the method above.
+Sandwiches are recreated internally using methods modified from the mev-inspect-py code and with sandwich profits recalculated according to zeromev's research [Estimating Sandwich Attack Profits And User Losses](https://docs.google.com/document/d/1CiVE-ASAjoKdc1V8ed6ABPJUAPsa7ADEB5VmnY1TkvI/edit?usp=sharing) as mev-inspect-py has outstanding issues in this area. Sandwich dollar exchange rates are calculated at tick granularity using the method above.
 
 Because of zeromev's reliance on mev-inspect-py for detection, much of the information from the mev-explore [data & metrics](https://explore.flashbots.net/data-metrics) page applies here.
 
