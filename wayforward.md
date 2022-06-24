@@ -21,9 +21,9 @@ These ideas are designed to:
 
 ### only use ethereum mainnet for token deposits and transfers
 
-Ethereum mainnet is becoming an increasingly hostile place to do business. 
+Ethereum mainnet is becoming an increasingly hostile place to do business.
 
-The [Ethereum Foundation](https://ethereum.org) under the advice of [Flashbots](https://docs.flashbots.net) are currently on a path of [maximizing MEV extraction](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177) the majority of which has been shown to involve [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship).
+The [Ethereum Foundation](https://ethereum.org) under the guidance of [Flashbots](https://docs.flashbots.net) are currently on a path of [maximizing MEV extraction](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177) the majority of which has been shown to involve [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship).
 
 While your tokens and direct token transfers are safely secured by the distributed nature of Ethereum consensus, popular use cases such as token swaps and NFT trades are extremely vulnerable to [toxic MEV](/terms#toxic-mev).
 
@@ -35,7 +35,7 @@ If you do decide to use order-sensitive smart contracts on Ethereum mainnet, und
 
 In short, mainnet protections must rely on trusting miners who are the very actors that benefit from [toxic MEV](/terms#toxic-mev). Miners are incentivized to make such protections fail at the point they start saving users money. Some miners have taken that decision already.
 
-If you do decide to use mainnet MEV protections, please set transaction parameters assuming you are still vulnerable (eg: tight slippage on a DEX swap).
+If you do decide to use mainnet MEV protections, please set transaction parameters assuming that you are still vulnerable (eg: tight slippage on a DEX swap).
 
 ### use a first come first serve (FCFS) layer 2 for everything else
 
@@ -43,11 +43,11 @@ A quick look at the [zeromev frontrunning explorer](/explorer) clearly shows how
 
 By using a [Layer 2 network](https://ethereum.org/en/layer-2) (L2) that enforces the time order of transactions, most harmful [toxic MEV](/terms#toxic-mev) can be avoided.
 
-Choose a First Come First Serve (FCFS) L2 with a high [Total Value Locked](https://l2beat.com) (TVL) that ensures they have a lot at risk reputationally, legally and financially if they choose to exploit you.
+Choose a First Come First Serve (FCFS) L2 with a high [Total Value Locked](https://l2beat.com) (TVL) that ensures they have a lot at risk reputationally, legally and financially should they choose to exploit you.
 
-Ethereum miners are similarly trusted for transaction ordering, but are unaccountable and anonymous. Worse, the majority now run software designed to maximize the exploitation of MEV and are not worthy of your trust.
+Ethereum miners are similarly trusted for transaction ordering, but are unaccountable and anonymous. Worse, the majority now run software designed to [maximize](https://github.com/flashbots/mev-geth) the exploitation of MEV and are not worthy of your trust.
 
-Avoid L2s that offer bribery ordering or have dubious or exploitative MEV policies. 
+Avoid L2s that offer bribery ordering or have dubious or exploitative MEV policies.
 
 For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and has made it clear that frontrunning will [not be tolerated](https://docs.ata.network/mev/solutions/mev-minimization-prevention/#arbitrum-by-offchain-labs), whereas [Optimism](https://www.optimism.io/) has looked to extract MEV from users [by design](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788).
 
