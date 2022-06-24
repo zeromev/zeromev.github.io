@@ -125,9 +125,9 @@ See [heatmap walkthrough](#heatmap-2-mins) for more.
 
 #### heatmap calculation
 
-The arrival time column shows the time at which a transaction was first seen by any one of the globally distributed zeromev nodes when it was pending.
+The arrival time column shows the time at which a pending transaction was first seen by any one of the globally distributed zeromev nodes.
 
-The delay is the difference between the time a pending transaction was first seen, and when it was included in the Ethereum blockchain.
+The delay is the difference between the time a transaction was first seen, and when it was included in the Ethereum blockchain.
 
 From this we get the time column, which is the index of where the transaction would have come in the block order had it been ordered by time.
 
@@ -169,7 +169,7 @@ The order of the block if sorted by gas price.
 
 #### fair order
 
-The order of the block if sorted by the first-seen arrival time of the globally distributed zeromev nodes.
+The order of transactions in the block if sorted by the first-seen arrival time of the globally distributed zeromev nodes.
 
 It is an approximation of objectively fair send time order (see [transaction reordering](/terms#transaction-reordering)) and [heatmap walkthrough](#heatmap-2-mins) for more.
 
@@ -205,7 +205,7 @@ Each column in the table is described below.
 
 #### time
 
-The index position of a transaction when ordered by first seen arrival time.
+The index position of a transaction in the block when ordered by first seen arrival time.
 
 See [heatmap calculation](#heatmap-calculation) for more.
 
@@ -227,7 +227,7 @@ This gives details of MEV and other information.
 
 #### impact
 
-Summarizes the loss to the user of an MEV instance, or in the case of liquidations, the negative of the transaction profit for consistency. Where both user loss and miner profit can be calculated, such as for [sandwich attacks](/terms#sandwich-attacks), user loss is shown.
+Summarizes the loss to the user of a MEV instance, or in the case of liquidations, the negative of the transaction profit for consistency. Where both user loss and miner profit can be calculated, such as for [sandwich attacks](/terms#sandwich-attacks), user loss is shown.
 
 #### action
 
@@ -245,7 +245,7 @@ Examples:
 2.1 is the first transaction in bundle 2.
 4.6 is the sixth transaction in bundle 4.
 
-Please note that while Flashbots Bundles start from 0 in their API, Zeromev starts Flashbots Bundles from 1 as this is also the behaviour of the official [Flashbots Bundle Explorer](https://flashbots-explorer.marto.lol/).
+Please note that while Flashbots bundles start from 0 in their API, zeromev starts bundles from 1 as this is also the behaviour of the official [Flashbots Bundle Explorer](https://flashbots-explorer.marto.lol/).
 
 #### transaction hash
 
@@ -279,6 +279,6 @@ Denominated in Gwei.
 
 You can navigate to the address page by searching for a valid Ethereum address in the [search bar](#search-bar)
 
-You can then page through all transactions made from this address. This is useful for seeing if you have been the victim of [toxic MEV](/terms#toxic-mev)
+You can then page through all the transactions performed by this address. This is useful for seeing if you have been the victim of [toxic MEV](/terms#toxic-mev)
 
 Clicking on a transaction hash from here drills down into the block containing that transaction. A 'Jump To Tx' button will then allow you to quickly find the transaction in question in the block.
