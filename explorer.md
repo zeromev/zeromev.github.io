@@ -4,7 +4,7 @@ Ethereum miners and validators have unchecked power to take money from you by [f
 
 The zeromev frontrunning explorer gives clear and detailed visibility of [Miner Extractable Value](/terms#miner-extractable-value) (MEV) and [transaction reordering](/terms#transaction-reordering) ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)) on the Ethereum network.
 
-Take steps to [protect yourself](/wayforward) **today**
+Take steps to [protect yourself](/wayforward) today.
 
 All dates and times on the site are in UTC (Coordinated Universal Time).
 
