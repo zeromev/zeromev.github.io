@@ -4,7 +4,7 @@ Ethereum miners and validators have unchecked power to take money from you by [f
 
 # get started
 
-Take steps to [protect yourself](/wayforward) **today**.
+Take steps to [protect yourself](/wayforward) today.
 
 Find out about [zeromev](/about) and the [mev problem](/problem) and other relevant [definitions](/terms).
 
