@@ -10,6 +10,8 @@ In 2014 (pre-genesis), the pseudo-anonymous [founder of zeromev](https://twitter
 
 In 2019, the seminal paper [Flashboys 2.0](https://arxiv.org/abs/1904.05234) coined the phrase [Miner Extractable Value](/terms#miner-extractable-value) (MEV) to describe how miners profit from this centralized, trusted power that they have over users in the Ethereum network, which still persists today.
 
-Hundreds of millions of dollars have already been taken from Ethereum users in this way. Left unchecked, we expect the problem to [worsen intolerably](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think). 
+Hundreds of millions of dollars have already been taken from Ethereum users in this way. Left unchecked, we expect the problem to [worsen intolerably](https://www.coindesk.com/tech/2021/05/10/why-ethereums-miner-extractable-value-problem-is-way-worse-than-you-think).
 
 Zeromev aims to eradicate [toxic MEV](/terms#toxic-mev) involving [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship).
+
+Take steps to [protect yourself](/wayforward) today.
