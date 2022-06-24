@@ -12,13 +12,13 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 *   [MEV auctions considered harmful](https://medium.com/offchainlabs/mev-auctions-considered-harmful-fa72f61a40ea)
 
-*   [Miner's Frontrunning (from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
-
 *   [MEV... do this](https://pmcgoohan.medium.com/mev-do-this-beb2754bca63)
 
 *   [Proposer/Builder Seperation & Criticism](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980/2)
 
 *   [Exploring Miner Extractable Value (MEV) with Pmcgoohan - Chainlink God Podcast](https://anchor.fm/chainlinkgod/episodes/Exploring-Miner-Extractable-Value-MEV-with-Pmcgoohan-e13ufaj)
+
+*   [Miner's Frontrunning (original post from 2014)](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/)
 
 ## mitigation
 
