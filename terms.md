@@ -39,6 +39,8 @@ Despite [sandwich attacks](#sandwich-attacks) being the only clearly toxic MEV t
 
 Once [nft sniping](#nft-sniping), [liquidity sandwiching](#liquidity-sandwiching), [toxic arbitrage](#toxic-arbitrage), [toxic liquidations](#toxic-liquidations), [censorship-as-a-service](#censorship-as-a-service) and [other](#other-toxic-mev) as yet undetected toxic MEV types are quantified, more benign forms of MEV not involving reordering may be revealed to be a tiny minority of the total.
 
+Take steps to [protect yourself](/wayforward) **today**.
+
 ### sandwich attacks
 
 Sandwich attacks are particularly exploitative reordering attacks and account for the majority of currently quantified MEV on Ethereum. 
