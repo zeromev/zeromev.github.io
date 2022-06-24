@@ -4,7 +4,7 @@ Individual miners and validators have full control over which transactions go in
 
 This permits all kinds of [frontrunning](/terms#frontrunning) and [censorship](/terms#censorship) attacks that are harmful and costly to users and illegal in regulated markets.
 
-These attacks may be performed directly by the miner, or the miner may be bribed to do so via the Ethereum gas price auction (GPA) mechanism or increasingly in a MEV auction, although any means of bribery can be used.
+These attacks may be performed directly by the miner, or the miner may be bribed to do so via the Ethereum gas price auction (GPA) mechanism or increasingly in a [MEV auction](https://medium.com/offchainlabs/mev-auctions-considered-harmful-fa72f61a40ea), although any means of bribery can be used.
 
 In 2014 (pre-genesis), the pseudo-anonymous [founder of zeromev](https://twitter.com/pmcgoohanCrypto) alerted the community to this vulnerability in their post [Miners Frontrunning](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning).
 
