@@ -39,7 +39,7 @@ If you do decide to use mainnet MEV protections, please set transaction paramete
 
 ### use a first come first serve (FCFS) layer 2 for everything else
 
-A quick look at the [Zeromev Frontrunning Explorer](/explorer) clearly shows how miners profit from users by reordering their transactions ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)). 
+A quick look at the [zeromev frontrunning explorer](/explorer) clearly shows how miners profit from users by reordering their transactions ([frontrunning](/terms#frontrunning) and [censorship](/terms#censorship)). 
 
 By using a [Layer 2 network](https://ethereum.org/en/layer-2) (L2) that enforces the time order of transactions, most harmful [toxic MEV](/terms#toxic-mev) can be avoided.
 
