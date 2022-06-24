@@ -55,7 +55,7 @@ For example, [Arbitrum](https://portal.arbitrum.one/) offers FCFS ordering, and 
 
 We hope the ideas above empower you to take effective action **today** to protect yourself against [toxic MEV](/terms#toxic-mev).
 
-The following organizations are at the fore of research to mitigate [toxic MEV](/terms#toxic-mev) in a fully distributed setting:
+The following organizations are at the forefront of efforts to mitigate [toxic MEV](/terms#toxic-mev) in a fully distributed setting:
 
 *   [Chainlink: Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
