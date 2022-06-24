@@ -7,7 +7,11 @@ The definition of terms used by zeromev in the context of [Miner Extractable Val
 
 ## miners
 
-The miners in Proof-of-Work Ethereum, each of which gets exclusive choice over which transactions go in their blocks and in what order. If validators are not specifically mentioned in the same context, it also includes validators which are the equivalent in Proof-of-Stake Ethereum. Where bribery ordering exists in other domains such as L2s, it may also refer to L2 validators/sequencers.
+The miners in Proof-of-Work Ethereum, each of which gets exclusive choice over which transactions go in their blocks and in what order. 
+
+If validators are not specifically mentioned in the same context, it also includes validators which are the equivalent in Proof-of-Stake Ethereum. 
+
+Where bribery ordering exists in other domains such as L2s, it may also refer to L2 validators/sequencers.
 
 ## miner extractable value
 
@@ -19,15 +23,15 @@ Frontrunning is the ability of miners to insert transactions before a victim tra
 
 ## censorship
 
-Censorship is the ability of miners to delay the execution of a user transaction for profit. Examples of this behaviour include [NFT sniping](#nft-sniping) and [toxic liquidations](#toxic-liquidations) (see [toxic MEV](#toxic-mev)). 
+Censorship is the ability of miners to delay the execution of a user transaction for profit. Examples of this behaviour include [NFT sniping](#nft-sniping) and [toxic liquidations](#toxic-liquidations) (see [toxic MEV](#toxic-mev)). It can also occur when victim transactions are delayed before being frontrun in a [sandwich attack](#sandwich-attacks).
 
 If the inclusion of a transaction on chain is delayed for long enough that its final state is altered or it fails (reverts), we consider that transaction to have been censored.
 
 ## toxic mev
 
-[Toxic MEV](#toxic-mev) is the loss incurred to users by miners frontrunning or censoring their transactions.
+[Toxic MEV](#toxic-mev) is the loss incurred to users by miners [frontrunning](/terms#frontrunning) or [censoring](/terms#censorship) their transactions.
 
-The hallmark of toxic MEV is miners reordering user transactions for their own profit.
+The hallmark of toxic MEV is miners [reordering](/terms#transaction-reordering) user transactions for their own profit.
 
 It is a consequence of block building being centralized and trusted in Ethereum. This permits both direct exploitation by the miner and by other parties that bribe the miner to do so.
 
@@ -41,7 +45,7 @@ Sandwich attacks are particularly exploitative reordering attacks and account fo
 
 They commonly occur on DEXs (distributed exchanges) where they involve the frontrunning of an order to manipulate the price against it followed by a backrun enabling the attacker to profit at the victim's expense.
 
-They may also involve an aspect of censorship where the sandwiched transaction is delayed until conditions are right for it to be exploited.
+They may also involve an aspect of [censorship](/terms#censorship) where the sandwiched transaction is delayed until conditions are right for it to be exploited.
 
 [This example](https://twitter.com/pmcgoohanCrypto/status/1510977122931822605?s=20&t=kPfQHgygmugIF7tib0qLOw) clearly shows an attacker frontrunning and then backrunning a user order for profit. It also shows the victim order having been delayed by 1 mins 43 secs before the attack takes place while the miner's frontrun and backrun are inserted in the block instantaneously by the miner.
 
@@ -75,7 +79,7 @@ While in traditional markets providing such a high volume of concentrated liquid
 
 Arbitrage involves profiting from the price difference of the same asset across different marketplaces.
 
-Arbitrage may be considered neutral MEV similar to latency arbitrage in traditional financial markets, although many arbitrage opportunities likely fall far outside the limits that would be imposed if DEXs were operating under NBBO (national best bid and offer) rules, for example this [arb for $2.4 million](https://twitter.com/bertcmiller/status/1536353430717046786).
+Arbitrage may be considered neutral MEV similar to latency arbitrage in traditional financial markets, although many arbitrage opportunities likely fall far outside the limits that would be imposed if DEXs were operating under NBBO (national best bid and offer) rules.
 
 Unlike straightforward arbitrage, toxic arbitrage involves an attacker reordering user transactions on the same pair before their backrun and/or censoring them until after their backrun, such that an imbalance is first artifically created and then exploited by the attacker.
 
@@ -99,7 +103,7 @@ Zeromev cannot currently diffentiate toxic and neutral liquidations. Until then,
 
 ### censorship-as-a-service
 
-Censorship-as-a-service (Caas) involves bribing miners not to include your transaction, but to exclude the transactions of other users.
+[Censorship-as-a-service](https://ethresear.ch/t/two-slot-proposer-builder-separation/10980/5#attack-1-secondary-censorship-market-1) (Caas) involves bribing miners to exclude the transactions of other users.
 
 CaaS is a vital and active area of research for zeromev because it is facilitated by the upcoming adoption of full-block mev auctions on Ethereum and the centralization of block building that they incentivize.
 
