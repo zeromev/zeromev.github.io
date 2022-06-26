@@ -4,3 +4,6 @@ description: Ethereum miners can take money from you by frontrunning and censori
 markdown: kramdown
 logo: images/zm.svg
 author: pmcgoohan
+url: "http://info.zeromev.org" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
