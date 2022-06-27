@@ -51,9 +51,10 @@ The web client is a single page application written in Blazor WASM. It sources d
 
 Credit and thanks to the following organizations and technologies that support the zeromev site and it's systems
 
-* [Go Ethereum (official Go implementation of the Ethereum protocol)](https://geth.ethereum.org/docs/getting-started)
-* [Flashbots mev-inspect-py (MEV inspector)](https://github.com/flashbots/mev-inspect-py)
-* [Erigon (very efficient full node Ethereum client)](https://github.com/ledgerwatch/erigon)
+* [Nethereum - an open source .NET integration library for blockchain](https://nethereum.com/)
+* [Flashbots - mev-inspect-py (MEV inspector)](https://github.com/flashbots/mev-inspect-py)
+* [Erigon - very efficient full node Ethereum client](https://github.com/ledgerwatch/erigon)
+* [Go Ethereum - official Go implementation of the Ethereum protocol](https://geth.ethereum.org/docs/getting-started)
 * [Infura - high availability Ethereum API](https://infura.io/)
 * [Etherscan - the ethereum blockchain explorer](https://etherscan.io/)
 * [Ethplorer - ethereum tokens explorer](https://ethplorer.io/)
