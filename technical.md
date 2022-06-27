@@ -46,3 +46,15 @@ The api service takes data from both the extractor and classifier databases for 
 # web client
 
 The web client is a single page application written in Blazor WASM. It sources data from the zeromev api server, [infura](https://infura.io/), [etherscan](https://etherscan.io/) and [ethplorer](https://ethplorer.io/).
+
+# acknowledgments
+
+Credit and thanks to the following organizations and technologies that support the zeromev site and it's systems
+
+* [Go Ethereum (official Go implementation of the Ethereum protocol)](https://geth.ethereum.org/docs/getting-started)
+* [Flashbots mev-inspect-py (MEV inspector)](https://github.com/flashbots/mev-inspect-py)
+* [Erigon (very efficient full node Ethereum client)](https://github.com/ledgerwatch/erigon)
+* [Infura - high availability Ethereum API](https://infura.io/)
+* [Etherscan - the ethereum blockchain explorer](https://etherscan.io/)
+* [Ethplorer - ethereum tokens explorer](https://ethplorer.io/)
+* [Ethereum Foundation](https://ethereum.org/en/)
