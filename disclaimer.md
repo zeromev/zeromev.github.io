@@ -1,12 +1,12 @@
 # terms and conditions
 
-__PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS SITE__
+__PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS SITE.__
 
 ## what's in these terms?
 
 These terms tell you the rules for using our websites www.zeromev.org and info.zeromev.org (zeromev or this site).
 
-By using our site you accept these terms
+By using our site you accept these terms.
 
 By using zeromev, you confirm that you accept these terms of use and that you agree to comply with them.
 
@@ -78,7 +78,7 @@ __If you are a consumer user:__
 
 ·       Please note that we only provide our site for domestic and private use. You agree not to use our site for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.
 
-·       If defective digital content that we have supplied, damages a device or digital content belonging to you and this is caused by our failure to use reasonable care and skill, we will either repair the damage or pay you compensation. [However, we will not be liable for damage that you could have avoided by following our advice to apply an update offered to you free of charge or for damage that was caused by you failing to correctly follow installation instructions or to have in place the minimum system requirements advised by us.]
+·       If defective digital content that we have supplied, damages a device or digital content belonging to you and this is caused by our failure to use reasonable care and skill, we will either repair the damage or pay you compensation. However, we will not be liable for damage that you could have avoided by following our advice to apply an update offered to you free of charge or for damage that was caused by you failing to correctly follow installation instructions or to have in place the minimum system requirements advised by us.
 
 ## we are not responsible for viruses and you must not introduce them
 
