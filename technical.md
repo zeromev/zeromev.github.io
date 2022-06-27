@@ -49,7 +49,7 @@ The web client is a single page application written in Blazor WASM. It sources d
 
 # acknowledgments
 
-Our credit and thanks go to the following organizations who's technologies support the zeromev site and it's systems
+Our credit and thanks go to the following organizations technologies that support the zeromev site and it's systems
 
 * [Nethereum - an open source .NET integration library for blockchain](https://nethereum.com/)
 * [Flashbots - mev-inspect-py (MEV inspector)](https://github.com/flashbots/mev-inspect-py)
