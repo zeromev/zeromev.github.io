@@ -120,6 +120,8 @@ make geth
 
 # usage
 
+The latest version of this readme and the source-code can be found [here](https://github.com/zeromev/zeromev-geth).
+
 - Install Zeromev-Geth in place of your validator execution client
 - Zeromev-Geth [reduces frontrunning](https://hackmd.io/d0lof7DcSD-QkgE8DnhkDA#frontrunning-within-network-latency) most successfully when configured with static nodes used by the most popular user wallets
 - These have not yet been published by wallet node operators. Please check back here for updates
