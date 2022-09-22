@@ -4,6 +4,10 @@ The following thoughts on reducing [toxic MEV](/terms#toxic-mev) are written in 
 
 Zeromev always encourages people to do their own research, and will [under no circumstances](/disclaimer) take responsibility for any losses.
 
+## validators
+
+Please see [zeromev-geth](/zmgeth), our interim solution to reduce frontrunning and harmful network centralization.
+
 ## users
 
 These ideas are designed to:
