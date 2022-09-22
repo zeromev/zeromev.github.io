@@ -6,7 +6,7 @@ Zeromev always encourages people to do their own research, and will [under no ci
 
 ## validators
 
-Please see [zeromev-geth](/zmgeth), our interim solution to reduce frontrunning and harmful network centralization.
+Please see [Zeromev-Geth](/zmgeth), our interim solution to reduce frontrunning and harmful network centralization.
 
 ## users
 
