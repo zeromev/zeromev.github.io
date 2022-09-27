@@ -127,7 +127,7 @@ The source code and readme for this project can be found [here](https://github.c
 
 [^1]: https://ethresear.ch/t/shutterized-beacon-chain/12249
 
-[^2]: https://eprint.iacr.org/2021/146
+[^2]: https://eprint.iacr.org/2021/1465
 
 [^3]: https://medium.com/initc3org/strategic-latency-reduction-in-blockchain-peer-to-peer-networks-6599bf38fd53
 
