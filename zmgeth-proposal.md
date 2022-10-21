@@ -1,8 +1,8 @@
 ![zeromev logo](/images/zeromevgethlogo.png)
 
-# Zeromev-Geth: Unilateral Fair Ordering
+ℹ️ please note: the latest version of this document can now be found [here](https://info.zeromev.org/zmgeth-proposal.html) ℹ️
 
-A fully decentralized MEV solution for validators.
+# Zeromev-Geth: Unilateral Fair Ordering
 
 ## problem
 
@@ -47,11 +47,15 @@ This situation is anyway improved by time ordering, because this kind of frontru
 
 The more we reduce the latency between users and proposers, the more we also reduce these remaining frontrunning opportunities, to zero in the best case:
 
-![Unilateral Fair Ordering Overview](/images/zmgethflow.png)
+![Unilateral Fair Ordering Overview](https://i.imgur.com/oXxniu4.png)
 
-In this scheme, wallet nodes that receive user transactions directly also permit validators to peer with them. If these connections could be optimized to be as fast as the dedicated [distribution networks](https://bloxroute.com/) used by extractors themselves, frontrunning would no longer be possible.
+In this scheme, wallet nodes that receive user transactions directly also permit validators to connect directly to them. If these connections could be optimized to be as fast as the dedicated [distribution networks](https://bloxroute.com/) used by extractors themselves, frontrunning would no longer be possible.
 
-This solution requires no code changes for validators. Wallets are simply peered as [static nodes](https://geth.ethereum.org/docs/interface/peer-to-peer) in their execution clients. It also preserves decentralization in that the public mempool is still used (unlike with builder based private order flow solutions).
+Validators can connect to wallets in one (or both) of two ways:
+- peered as [static nodes](https://geth.ethereum.org/docs/interface/peer-to-peer) in their execution clients
+- via JSON-RPC websocket subscriptions
+
+This preserves decentralization in that the public mempool is still used (unlike with builder based private order flow solutions).
 
 Because of the wide adoption of [Infura](https://infura.io/) by both wallets and validators, it is possible that conditions already exist to avoid frontrunning.
 
@@ -81,7 +85,7 @@ Also, it is not commonly known that Geth already orders transactions by time whe
 
 You can see this clearly [here](https://zeromev.org/block?num=14012201). The vast majority of this block is receive time ordered to a high degree of accuracy due to most of the transactions within it sharing the same gas price.
 
-![Zeromev Block 140122101 - Mostly Receive Time Ordered](/images/zmgethheatmap.png)
+![Zeromev Block 140122101 - Mostly Receive Time Ordered](https://i.imgur.com/3XRuhT0.png)
 
 When validators do not backrun themselves, whoever has the lowest latency network will benefit instead. As such, it is likely that backruns will be done by a small number of highly resourced actors.
 
@@ -118,10 +122,6 @@ You can see how blocks like this might look by clicking on 'Fair Order' for any 
 #### DDOS attacks
 
 There is no DDOS attack vector because of the EIP-1559 base fee.
-
-## project
-
-The source code and readme for this project can be found [here](https://github.com/zeromev/zeromev-geth).
 
 ## references
 
