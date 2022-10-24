@@ -1,7 +1,5 @@
 ![zeromev logo](/images/zeromevgethlogo.png)
 
-ℹ️ please note: the latest version of this document can now be found [here](https://info.zeromev.org/zmgeth-proposal.html) ℹ️
-
 # Zeromev-Geth: Unilateral Fair Ordering
 
 ## problem
@@ -47,7 +45,7 @@ This situation is anyway improved by time ordering, because this kind of frontru
 
 The more we reduce the latency between users and proposers, the more we also reduce these remaining frontrunning opportunities, to zero in the best case:
 
-![Unilateral Fair Ordering Overview](https://i.imgur.com/oXxniu4.png)
+![Unilateral Fair Ordering Overview](https://i.imgur.com/NNTRHas.png)
 
 In this scheme, wallet nodes that receive user transactions directly also permit validators to connect directly to them. If these connections could be optimized to be as fast as the dedicated [distribution networks](https://bloxroute.com/) used by extractors themselves, frontrunning would no longer be possible.
 
