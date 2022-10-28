@@ -1,6 +1,6 @@
 # tl;dr
 
-Ethereum miners and validators have unchecked power to take money from you by [frontrunning](/terms#frontrunning) and [censoring](/terms#censorship) your transactions.
+Ethereum validators have unchecked power to take money from you by [frontrunning](/terms#frontrunning) and [censoring](/terms#censorship) your transactions.
 
 # get started
 
