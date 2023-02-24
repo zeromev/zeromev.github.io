@@ -11,6 +11,10 @@ The zeromev system consists of four main components authored in C# .NET Core.
 | [api server](#api-server)         | provides compact MEV data to the web client                                      |
 | [web client](#web-client)         | single page application drawing data from the api server and third parties       |
 
+# change log
+
+[See here](/change) to review changes to our data and methodology over time.
+
 # extractor service
 
 The extractor service is designed to run locally on full Ethereum nodes which it connects to via both RPC and Websockets.
