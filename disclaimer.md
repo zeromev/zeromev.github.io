@@ -4,7 +4,7 @@ __PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS SITE.__
 
 ## what's in these terms?
 
-These terms tell you the rules for using our websites www.zeromev.org and info.zeromev.org (zeromev or this site).
+These terms tell you the rules for using our sites www.zeromev.org, info.zeromev.org and data.zeromev.org (zeromev or this site).
 
 By using our site you accept these terms.
 
