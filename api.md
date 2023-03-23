@@ -1,3 +1,5 @@
+![zeromev api logo](/images/api.jpeg)
+
 # zeromev API usage guide
 
 The zeromev REST API allows you to get transaction level MEV summary data for the Ethereum blockchain.
