@@ -22,12 +22,12 @@ Each MEV transaction has an `mev_type`.
 
 | type | description |
 | -------- | -------- |
-| arb     | An arbitrage transaction allowing the extractor to profit from price discrepancies between exchanges.     |
-| frontrun     | The frontrun transaction in a sandwich. This initiates the attack and moves the price against the victim.     |
-| sandwich     | A victim transaction in a sandwich. There can be one or more of these per attack.     |
-| backrun     | This is the backrun in a sandwich, allowing the attacker to close their position and extract a profit.     |
-| liquid     | Refers to a liquidation event in a DeFi lending protocol.     |
-| swap     | Swaps are included to provide volume data for non-MEV transactions.     |
+| arb     | an arbitrage transaction allowing the extractor to profit from price discrepancies between exchanges.     |
+| frontrun     | the frontrun transaction in a sandwich. This initiates the attack and moves the price against the victim.     |
+| sandwich     | a victim transaction in a sandwich. There can be one or more of these per attack.     |
+| backrun     | this is the backrun in a sandwich, allowing the attacker to close their position and extract a profit.     |
+| liquid     | refers to a liquidation event in a DeFi lending protocol.     |
+| swap     | swaps are included to provide volume data for non-MEV transactions.     |
 
 ### handling swap volume
 
