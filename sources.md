@@ -12,7 +12,7 @@
 
 ## data source comparison test
 
-- [Eigenphi](https://eigenphi.io/) make a good data source comparison test as they employ a very different [MEV classification methodology](https://eigenphi-1.gitbook.io/classroom/eigenphis-methodologies/how-eigenphi-identifies-mev/recognizing-atomic-mev-transactions/abstract-approach) to mev-inspect-py and zeromev
+- [Eigenphi](https://eigenphi.io/) provide a good data source comparison test set as they employ a very different [MEV classification methodology](https://eigenphi-1.gitbook.io/classroom/eigenphis-methodologies/how-eigenphi-identifies-mev/recognizing-atomic-mev-transactions/abstract-approach) to mev-inspect-py and zeromev
 - as can be seen below, the sandwich attacks recalculated by zeromev produce similar results to Eigenphi.
 ![sandwich data comparison (eigenphi vs zeromev)](https://i.imgur.com/mT7nV77.png)
 - mev-inspect-py arbitrage classification is not yet recalculated by zeromev and misses around 64% of instances compared to Eigenphi at time of writing.
