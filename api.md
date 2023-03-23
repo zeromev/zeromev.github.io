@@ -18,29 +18,16 @@ The endpoint and schema will be found here after the API launch. Access is publi
 
 ### MEV types
 
-#### arb
+Each MEV transaction has an `mev_type`.
 
-An arbitrage transaction allowing the extractor to profit from price discrepancies between exchanges.
-
-#### frontrun
-
-The frontrun transaction in a sandwich. This initiates the attack and moves the price against the victim.
-
-#### sandwich
-
-A victim transaction in a sandwich. There can be one or more of these per attack.
-
-#### backrun
-
-This is the backrun in a sandwich, allowing the attacker to close their position and extract a profit.
-
-#### liquid
-
-Refers to a liquidation event in a DeFi lending protocol.
-
-#### swap
-
-Swaps are included to provide volume data for non-MEV transactions.
+| type | description |
+| -------- | -------- |
+| arb     | An arbitrage transaction allowing the extractor to profit from price discrepancies between exchanges.     |
+| frontrun     | The frontrun transaction in a sandwich. This initiates the attack and moves the price against the victim.     |
+| sandwich     | A victim transaction in a sandwich. There can be one or more of these per attack.     |
+| backrun     | This is the backrun in a sandwich, allowing the attacker to close their position and extract a profit.     |
+| liquid     | Refers to a liquidation event in a DeFi lending protocol.     |
+| swap     | Swaps are included to provide volume data for non-MEV transactions.     |
 
 ### handling swap volume
 
