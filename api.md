@@ -66,6 +66,10 @@ Please follow these guidelines for best accuracy:
 - on a backrun transaction, `backrun imbalance = (calculated back out - original back out) / calculated back out`
 - on a frontrun transaction, `frontrun imbalance = (calculated front in - original front in) / calculated front in`
 
+### data coverage
+
+- MEV data has been extracted from block number 9216000
+
 ### rate limiting
 
 Calls are limited to a maximum of 5 per second.
