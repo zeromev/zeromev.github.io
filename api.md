@@ -14,8 +14,7 @@ The endpoint and schema will be found here after the API launch. Access is publi
 
 - [`mevBlock`](https://info.zeromev.org) returns one or more blocks of MEV transactions.
 - [`mevTransactions`](https://info.zeromev.org) returns all MEV transactions for an Ethereum address.
-- both of these calls return a [`mevTransaction`](https://info.zeromev.org) array.
-- [`mevTransactionsSummary`](https://info.zeromev.org) call returns MEV summary data for an Ethereum address.
+- [`mevTransactionsSummary`](https://info.zeromev.org) returns MEV summary data for an Ethereum address.
 
 ## usage & best practices
 
