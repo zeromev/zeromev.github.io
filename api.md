@@ -68,7 +68,7 @@ Please follow these guidelines for best accuracy:
 
 ### data coverage
 
-- MEV data has been extracted from block number 9216000 and is updated continuously.
+MEV data has been extracted from block number 9216000 and is updated continuously.
 
 ### rate limiting
 
