@@ -22,6 +22,10 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 ## mitigation
 
+*   [CoW Swap: Batch Auctions for frontrunning mitigation](https://cow.fi/)
+
+*   [mevblocker.io: RPC frontrunning protection with backrunning rebates](https://mevblocker.io/)
+
 *   [Chainlink: Fair Sequencing Services](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
 *   [Shutter Network](https://shutter.ghost.io/)
