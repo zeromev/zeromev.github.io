@@ -1,4 +1,4 @@
-![zeromev api logo](/images/api.jpeg)
+![zeromev api logo](/images/zmapi.jpeg)
 
 # zeromev API usage guide
 
