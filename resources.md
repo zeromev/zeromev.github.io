@@ -48,6 +48,8 @@ A selection of resources relevant to [Miner Extractable Value](/terms#miner-extr
 
 ## technology
 
+*   [CoW Swap Github](https://github.com/cowprotocol/cowswap)
+
 *   [Shutter Network Github](https://github.com/shutter-network)
 
 *   [Offchain Labs - Arbitrum Github](https://github.com/OffchainLabs/arbitrum)
