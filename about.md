@@ -15,4 +15,6 @@ Our flagship product is the [zeromev frontrunning explorer](/explorer) which giv
 
 We also offer [Zeromev-Geth](/zmgeth), an alternative execution client for validators wishing to protect users from frontrunning and the network from harmful centralization.
 
+You can now access our data freely via the [Zeromev API](/api).
+
 Zeromev was founded by the pseudo-anonymous researcher [pmcgoohan](https://twitter.com/pmcgoohanCrypto) who first alerted the community to the vulnerability we now call MEV in their 2014 post [miners frontrunning](https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning).
