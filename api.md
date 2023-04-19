@@ -8,13 +8,13 @@ Please read the [data sources & limitations](https://info.zeromev.org/sources.ht
 
 ## access
 
-The endpoint and schema will be found here after the API launch. Access is public and unauthenticated.
+The endpoint and schema can be found at [https://data.zeromev.org/docs/](https://data.zeromev.org/docs/)
 
 ## quick start
 
-- [`mevBlock`](https://info.zeromev.org) returns one or more blocks of MEV transactions.
-- [`mevTransactions`](https://info.zeromev.org) returns all MEV transactions for an Ethereum address.
-- [`mevTransactionsSummary`](https://info.zeromev.org) returns MEV summary data for an Ethereum address.
+- [`mevBlock`](https://data.zeromev.org/docs/#/public/mevBlock) returns one or more blocks of MEV transactions.
+- [`mevTransactions`](https://data.zeromev.org/docs/#/public/mevTransactions) returns all MEV transactions for an Ethereum address.
+- [`mevTransactionsSummary`](https://data.zeromev.org/docs/#/public/mevTransactionsSummary) returns MEV summary data for an Ethereum address.
 
 ## usage & best practices
 
