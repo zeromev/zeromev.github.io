@@ -6,6 +6,8 @@ The zeromev REST API allows you to get transaction level MEV summary data for th
 
 Please read the [data sources & limitations](https://info.zeromev.org/sources.html) page before using the API and take note of our [terms of service](https://info.zeromev.org/disclaimer.html).
 
+Please note that the API now serves [historical data](#data-coverage).
+
 ## access
 
 The endpoint and schema can be found at 
